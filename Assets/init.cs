@@ -19,6 +19,8 @@ public class init : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if (Input.GetKey(KeyCode.G)) {
+            startobj.AddForce(new Vector3(10,0,0));
+        }
 	}
 }
