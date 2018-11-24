@@ -10,7 +10,7 @@ public class init : MonoBehaviour {
     void Start () {
         for (int i = 0; i < 10; i++)
         {
-            Rigidbody obj = Instantiate(prefab, new Vector3(i * 0.8F, 0.5f, 0), Quaternion.identity);
+            Rigidbody obj = Instantiate(prefab, new Vector3(i * 0.8F, 4.5f, 0), Quaternion.identity);
             if (i==0) {
                 startobj = obj;
             }
